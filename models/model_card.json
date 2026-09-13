@@ -1,0 +1,177 @@
+{
+  "selected_model": "B2_recent_form",
+  "seed": 42,
+  "features": [
+    "quali_gap_pct",
+    "quali_gap_to_teammate_pct",
+    "quali_session_reached",
+    "quali_missing",
+    "grid_position",
+    "grid_minus_quali",
+    "fp2_longrun_pace_delta_pct",
+    "fp2_longrun_variability_s",
+    "fp2_longrun_laps",
+    "fp3_longrun_pace_delta_pct",
+    "fp3_longrun_variability_s",
+    "fp3_longrun_laps",
+    "longrun_missing",
+    "team_recent_race_pace_delta",
+    "driver_recent_race_pace_delta",
+    "driver_quali_to_race_conversion",
+    "races_of_history"
+  ],
+  "validation": {
+    "B0_null": {
+      "mae_pct": 1.1194319090874667,
+      "rmse_pct": 1.4607335216484998,
+      "n": 179,
+      "r2": -0.012803537208458282,
+      "mean_within_race_spearman": NaN,
+      "per_fold_mae": {
+        "5": 1.1447,
+        "6": 0.9817,
+        "7": 1.2941,
+        "8": 1.2285,
+        "9": 1.1073,
+        "10": 1.0025,
+        "11": 1.2398,
+        "12": 1.3102,
+        "13": 0.7433
+      },
+      "skill_vs_null": 0.0
+    },
+    "B1_qualifying": {
+      "mae_pct": 0.5523862314042294,
+      "rmse_pct": 0.7398281486451355,
+      "n": 179,
+      "r2": 0.7401965462634841,
+      "mean_within_race_spearman": 0.9195301236520032,
+      "per_fold_mae": {
+        "5": 0.475,
+        "6": 0.9711,
+        "7": 0.5704,
+        "8": 0.359,
+        "9": 0.362,
+        "10": 0.3317,
+        "11": 0.4731,
+        "12": 0.5751,
+        "13": 0.8683
+      },
+      "skill_vs_null": 0.5065477168195778
+    },
+    "B2_recent_form": {
+      "mae_pct": 0.5104765347625263,
+      "rmse_pct": 0.7121946199174664,
+      "n": 179,
+      "r2": 0.759242073116673,
+      "mean_within_race_spearman": 0.8748928908910543,
+      "per_fold_mae": {
+        "5": 0.6055,
+        "6": 0.8904,
+        "7": 0.4712,
+        "8": 0.3835,
+        "9": 0.3079,
+        "10": 0.2954,
+        "11": 0.6153,
+        "12": 0.4873,
+        "13": 0.5421
+      },
+      "skill_vs_null": 0.5439860784577293
+    },
+    "B3_ridge": {
+      "mae_pct": 0.5351255537839845,
+      "rmse_pct": 0.6962098496820769,
+      "n": 179,
+      "r2": 0.769928118409978,
+      "mean_within_race_spearman": 0.9133076343940518,
+      "per_fold_mae": {
+        "5": 0.5377,
+        "6": 0.9,
+        "7": 0.5346,
+        "8": 0.3541,
+        "9": 0.4218,
+        "10": 0.4019,
+        "11": 0.433,
+        "12": 0.5199,
+        "13": 0.7233
+      },
+      "skill_vs_null": 0.521966857081816
+    },
+    "XGBoost": {
+      "mae_pct": 0.5507452563669362,
+      "rmse_pct": 0.740748812868887,
+      "n": 179,
+      "r2": 0.7395495295902932,
+      "mean_within_race_spearman": 0.9231125809973777,
+      "per_fold_mae": {
+        "5": 0.5474,
+        "6": 0.8565,
+        "7": 0.5256,
+        "8": 0.6621,
+        "9": 0.3369,
+        "10": 0.2964,
+        "11": 0.3632,
+        "12": 0.5971,
+        "13": 0.8077
+      },
+      "skill_vs_null": 0.5080136166424896
+    }
+  },
+  "xgb_params_per_fold": {
+    "5": {
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    },
+    "6": {
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    },
+    "7": {
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    },
+    "8": {
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "min_child_weight": 5,
+      "reg_lambda": 5.0
+    },
+    "9": {
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    },
+    "10": {
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    },
+    "11": {
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    },
+    "12": {
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    },
+    "13": {
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "reg_lambda": 3.0
+    }
+  },
+  "training_window": "2026 only (Option A)"
+}
