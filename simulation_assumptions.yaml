@@ -1,0 +1,28 @@
+# Values the simulator cannot estimate from data.
+# Everything here is an ASSUMPTION, not a measurement. Values that ARE estimated
+# from 2026 race data (lap noise, degradation trend, pit loss, DNF rates, Safety
+# Car prior, lap-1 shuffle, race-pace-to-pole ratio) are computed in src/priors.py
+# and labelled 'estimated-from-data' in the frozen prediction JSON.
+
+following_gap_s: 1.0        # within this gap a car is considered to be held up
+dirty_air_penalty_s: 0.25   # lap-time cost of running in the wake of another car
+pass_pace_threshold_s: 0.35 # clean-pace advantage needed before a pass is attempted
+pass_time_cost_s: 0.15      # time both cars lose in the passing move
+pit_lap_jitter: 3           # +/- laps of noise around the scheduled stop lap
+sc_gap_s: 1.0               # gap between cars once the field is compressed under SC
+sc_pit_loss_discount: 0.55  # fraction of normal pit loss when stopping under SC
+
+# Overtaking difficulty at Madring is unknown: no F1 race has been run there.
+# The whole simulation is repeated under all three cases and the headline result
+# reports the spread. No Madring-specific pass probability is invented anywhere.
+overtaking_cases:
+  LOW: 0.10
+  BASE: 0.25
+  HIGH: 0.50
+
+overtaking_note: >
+  The base case sits at the low end because the circuit is widely described in
+  pre-race coverage as difficult to overtake on and the junior-category races at
+  the venue were reported as processional. That is journalism, not data, and it
+  is cited as such. If the real race shows frequent passing, this parameter is
+  the first thing to recalibrate in V2.

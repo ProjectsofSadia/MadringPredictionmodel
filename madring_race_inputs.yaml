@@ -1,0 +1,23 @@
+# External, documented inputs for the Madring race. Not from FastF1.
+
+race_laps: 57
+race_laps_source: "https://www.formula1.com/en/racing/2026/spain (circuit page: 5.416 km, 57 laps, 308.524 km)"
+race_laps_conflict: >
+  Secondary sources disagree: some list the circuit at 5.474 km and the race at
+  53 laps. The value above follows the official Formula 1 circuit page. Confirm
+  against the FIA event documents before the race; if it differs, pass
+  --race-laps to run_pipeline.py rather than editing a prediction after the fact.
+  A wrong lap count changes stint lengths and therefore the simulated strategy.
+
+circuit_length_km: 5.416
+circuit_length_source: "https://www.formula1.com/en/racing/2026/spain"
+
+race_start_utc: "2026-09-13T13:00:00Z"
+race_start_source: "FastF1 2026 event schedule, round 14 (Session5DateUtc)"
+
+first_f1_race_at_venue: true
+circuit_history_note: >
+  Madring has never hosted a Formula 1 race. There is no circuit-specific
+  historical data of any kind. Every circuit-dependent quantity in the simulator
+  is either estimated from this weekend's own sessions, taken from a documented
+  2026-season prior, or declared as an assumption with a sensitivity range.

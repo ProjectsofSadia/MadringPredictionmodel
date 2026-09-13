@@ -1,0 +1,23 @@
+driver,team,grid_position,qualifying_position,grid_penalty,status,source_url,retrieved_utc
+Lando Norris,McLaren,1,1,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Kimi Antonelli,Mercedes,2,2,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Max Verstappen,Red Bull Racing,3,3,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Lewis Hamilton,Ferrari,4,4,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Charles Leclerc,Ferrari,5,5,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+George Russell,Mercedes,6,6,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Oscar Piastri,McLaren,7,7,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Liam Lawson,Red Bull Racing,8,8,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Franco Colapinto,Alpine,9,9,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Arvid Lindblad,Racing Bulls,10,10,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Nico Hulkenberg,Audi,11,11,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Gabriel Bortoleto,Audi,12,12,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Esteban Ocon,Haas,13,13,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Pierre Gasly,Alpine,14,14,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Yuki Tsunoda,Racing Bulls,15,15,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Alexander Albon,Williams,16,16,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Fernando Alonso,Aston Martin,17,18,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Sergio Perez,Cadillac,18,19,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Valtteri Bottas,Cadillac,19,20,0,OK,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Carlos Sainz,Williams,20,17,3,PENALTY_IMPEDING,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Oliver Bearman,Haas,21,21,0,NO_QUALIFYING_TIME_FP3_CRASH,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
+Lance Stroll,Aston Martin,22,22,40,NO_QUALIFYING_TIME_PU_PENALTY,https://www.the-race.com/formula-1/f1-2026-spanish-gp-starting-grid-after-two-penalties/,2026-09-13T01:23:40Z
